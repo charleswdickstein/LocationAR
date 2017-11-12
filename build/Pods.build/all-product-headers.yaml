@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/charlesdickstein/Desktop/NYUClasses/IOS/LocAR/build/Debug-iphonesimulator/ARCL/ARCL.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ARCL-Swift.h",
+          'external-contents': "/Users/charlesdickstein/Desktop/NYUClasses/IOS/LocAR/build/Debug-iphonesimulator/ARCL/ARCL.framework/Headers/ARCL-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ARCL-umbrella.h",
+          'external-contents': "/Users/charlesdickstein/Desktop/NYUClasses/IOS/LocAR/Pods/Target Support Files/ARCL/ARCL-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/charlesdickstein/Desktop/NYUClasses/IOS/LocAR/build/Debug-iphonesimulator/ARCL/ARCL.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/charlesdickstein/Desktop/NYUClasses/IOS/LocAR/build/Pods.build/Debug-iphonesimulator/ARCL.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,12 @@
 		7449F4691FB7AF1200006534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7449F4671FB7AF1200006534 /* LaunchScreen.storyboard */; };
 		7449F4741FB7AF1200006534 /* LocARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449F4731FB7AF1200006534 /* LocARTests.swift */; };
 		7449F47F1FB7AF1200006534 /* LocARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449F47E1FB7AF1200006534 /* LocARUITests.swift */; };
+		7449F48F1FB7B09300006534 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449F48E1FB7B09300006534 /* PlacesTableViewController.swift */; };
+		745AB7AC1FB7DBC50031E616 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745AB7AB1FB7DBC50031E616 /* PlaceAnnotation.swift */; };
+		745AB7AE1FB7E6590031E616 /* dogImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 745AB7AD1FB7E6590031E616 /* dogImg.png */; };
+		793F2B870209503D8FF7653B /* Pods_LocARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F6D98DD5596597D1BD892F /* Pods_LocARTests.framework */; };
+		823247C83F2FCAFF579BC582 /* Pods_LocAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC886EB2CFF9121CED53B9E /* Pods_LocAR.framework */; };
+		EB703A19E288659F50BE8261 /* Pods_LocARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B3C24C9C732878A2F54DE6 /* Pods_LocARUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C26A94A4764C0C5AC294ED6 /* Pods-LocARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocARTests/Pods-LocARTests.release.xcconfig"; sourceTree = "<group>"; };
+		31B60D0AC58C1D7F3632F1B2 /* Pods-LocARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocARUITests/Pods-LocARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC886EB2CFF9121CED53B9E /* Pods_LocAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6333CA68D755570435F22695 /* Pods-LocARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocARUITests/Pods-LocARUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7449F45B1FB7AF1200006534 /* LocAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7449F45E1FB7AF1200006534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7449F4601FB7AF1200006534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		7449F47A1FB7AF1200006534 /* LocARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7449F47E1FB7AF1200006534 /* LocARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocARUITests.swift; sourceTree = "<group>"; };
 		7449F4801FB7AF1200006534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7449F48E1FB7B09300006534 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		745AB7AB1FB7DBC50031E616 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		745AB7AD1FB7E6590031E616 /* dogImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogImg.png; sourceTree = "<group>"; };
+		93B3C24C9C732878A2F54DE6 /* Pods_LocARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AAA158F67B19FBF0ADCB18 /* Pods-LocAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocAR/Pods-LocAR.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E8F27F1E7D626A7D4CF5A5 /* Pods-LocAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocAR/Pods-LocAR.release.xcconfig"; sourceTree = "<group>"; };
+		D90E2A8AE01D7AF9CADEA1B4 /* Pods-LocARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocARTests/Pods-LocARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F6D98DD5596597D1BD892F /* Pods_LocARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823247C83F2FCAFF579BC582 /* Pods_LocAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793F2B870209503D8FF7653B /* Pods_LocARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB703A19E288659F50BE8261 /* Pods_LocARUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35DC4E034632A7F6E81C453F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC886EB2CFF9121CED53B9E /* Pods_LocAR.framework */,
+				F5F6D98DD5596597D1BD892F /* Pods_LocARTests.framework */,
+				93B3C24C9C732878A2F54DE6 /* Pods_LocARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3640005216B92AA6464F0D6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAA158F67B19FBF0ADCB18 /* Pods-LocAR.debug.xcconfig */,
+				B4E8F27F1E7D626A7D4CF5A5 /* Pods-LocAR.release.xcconfig */,
+				D90E2A8AE01D7AF9CADEA1B4 /* Pods-LocARTests.debug.xcconfig */,
+				1C26A94A4764C0C5AC294ED6 /* Pods-LocARTests.release.xcconfig */,
+				31B60D0AC58C1D7F3632F1B2 /* Pods-LocARUITests.debug.xcconfig */,
+				6333CA68D755570435F22695 /* Pods-LocARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7449F4521FB7AF1200006534 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				7449F4721FB7AF1200006534 /* LocARTests */,
 				7449F47D1FB7AF1200006534 /* LocARUITests */,
 				7449F45C1FB7AF1200006534 /* Products */,
+				3640005216B92AA6464F0D6E /* Pods */,
+				35DC4E034632A7F6E81C453F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,15 @@
 		7449F45D1FB7AF1200006534 /* LocAR */ = {
 			isa = PBXGroup;
 			children = (
+				7449F48E1FB7B09300006534 /* PlacesTableViewController.swift */,
 				7449F45E1FB7AF1200006534 /* AppDelegate.swift */,
 				7449F4601FB7AF1200006534 /* ViewController.swift */,
 				7449F4621FB7AF1200006534 /* Main.storyboard */,
 				7449F4651FB7AF1200006534 /* Assets.xcassets */,
 				7449F4671FB7AF1200006534 /* LaunchScreen.storyboard */,
+				745AB7AD1FB7E6590031E616 /* dogImg.png */,
 				7449F46A1FB7AF1200006534 /* Info.plist */,
+				745AB7AB1FB7DBC50031E616 /* PlaceAnnotation.swift */,
 			);
 			path = LocAR;
 			sourceTree = "<group>";
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7449F4831FB7AF1200006534 /* Build configuration list for PBXNativeTarget "LocAR" */;
 			buildPhases = (
+				A4741D187FC96732ACBA5DF0 /* [CP] Check Pods Manifest.lock */,
 				7449F4571FB7AF1200006534 /* Sources */,
 				7449F4581FB7AF1200006534 /* Frameworks */,
 				7449F4591FB7AF1200006534 /* Resources */,
+				7516D81D80376C4588AE4451 /* [CP] Embed Pods Frameworks */,
+				C2DF5E3638540EBDA936CBCE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7449F4861FB7AF1200006534 /* Build configuration list for PBXNativeTarget "LocARTests" */;
 			buildPhases = (
+				4063D1B0A8B13BF48042F7CF /* [CP] Check Pods Manifest.lock */,
 				7449F46B1FB7AF1200006534 /* Sources */,
 				7449F46C1FB7AF1200006534 /* Frameworks */,
 				7449F46D1FB7AF1200006534 /* Resources */,
+				D50ABA8367662DAC575BC1B4 /* [CP] Embed Pods Frameworks */,
+				E063C77E967E6E8723EBBDDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7449F4891FB7AF1200006534 /* Build configuration list for PBXNativeTarget "LocARUITests" */;
 			buildPhases = (
+				AF7A9914C8173E9BB45C05A8 /* [CP] Check Pods Manifest.lock */,
 				7449F4761FB7AF1200006534 /* Sources */,
 				7449F4771FB7AF1200006534 /* Frameworks */,
 				7449F4781FB7AF1200006534 /* Resources */,
+				1EF70AFB4B93A3ACF570E804 /* [CP] Embed Pods Frameworks */,
+				20F3ABFED9BCD2778D603F38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745AB7AE1FB7E6590031E616 /* dogImg.png in Resources */,
 				7449F4691FB7AF1200006534 /* LaunchScreen.storyboard in Resources */,
 				7449F4661FB7AF1200006534 /* Assets.xcassets in Resources */,
 				7449F4641FB7AF1200006534 /* Main.storyboard in Resources */,
@@ -254,13 +313,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF70AFB4B93A3ACF570E804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocARUITests/Pods-LocARUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20F3ABFED9BCD2778D603F38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocARUITests/Pods-LocARUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4063D1B0A8B13BF48042F7CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7516D81D80376C4588AE4451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocAR/Pods-LocAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocAR/Pods-LocAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4741D187FC96732ACBA5DF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7A9914C8173E9BB45C05A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DF5E3638540EBDA936CBCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocAR/Pods-LocAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50ABA8367662DAC575BC1B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocARTests/Pods-LocARTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E063C77E967E6E8723EBBDDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocARTests/Pods-LocARTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7449F4571FB7AF1200006534 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745AB7AC1FB7DBC50031E616 /* PlaceAnnotation.swift in Sources */,
 				7449F4611FB7AF1200006534 /* ViewController.swift in Sources */,
 				7449F45F1FB7AF1200006534 /* AppDelegate.swift in Sources */,
+				7449F48F1FB7B09300006534 /* PlacesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +635,7 @@
 		};
 		7449F4841FB7AF1200006534 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AAA158F67B19FBF0ADCB18 /* Pods-LocAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +651,7 @@
 		};
 		7449F4851FB7AF1200006534 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E8F27F1E7D626A7D4CF5A5 /* Pods-LocAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +667,7 @@
 		};
 		7449F4871FB7AF1200006534 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90E2A8AE01D7AF9CADEA1B4 /* Pods-LocARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +685,7 @@
 		};
 		7449F4881FB7AF1200006534 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C26A94A4764C0C5AC294ED6 /* Pods-LocARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +703,7 @@
 		};
 		7449F48A1FB7AF1200006534 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B60D0AC58C1D7F3632F1B2 /* Pods-LocARUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +720,7 @@
 		};
 		7449F48B1FB7AF1200006534 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6333CA68D755570435F22695 /* Pods-LocARUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
